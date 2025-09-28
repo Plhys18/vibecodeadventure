@@ -1,7 +1,11 @@
 import { useApp } from '../contexts/AppContext'
 
 const ThemeSwitcher = () => {
-  const { currentTheme, themes, changeTheme } = useApp()
+  const { currentTheme, themes, changeTheme, isAdmin } = useApp()
+
+  if (!isAdmin) {
+    return null
+  }
 
   return (
     <div className="theme-switcher">

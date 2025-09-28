@@ -11,7 +11,7 @@ export const useApp = () => {
 }
 
 export const AppProvider = ({ children }) => {
-  const [currentTheme, setCurrentTheme] = useState('professional')
+  const [currentTheme, setCurrentTheme] = useState('modern')
   const [isAdmin, setIsAdmin] = useState(false)
   const [content, setContent] = useState({
     companyName: 'Cekr CZ s.r.o',
