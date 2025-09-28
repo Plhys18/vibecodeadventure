@@ -58,14 +58,14 @@ export const AppProvider = ({ children }) => {
     modern: {
       name: 'Moderní',
       colors: {
-        primary: '#1a202c',
-        secondary: '#2d3748',
-        accent: '#ed8936',
-        hero: 'linear-gradient(135deg, #1a202c 0%, #4a5568 100%)',
-        background: '#ffffff',
-        surface: '#f7fafc',
-        text: '#1a202c',
-        textLight: '#718096'
+        primary: '#0f172a',
+        secondary: '#1e293b',
+        accent: '#dc2626',
+        hero: 'linear-gradient(135deg, #0f172a 0%, #1e293b 100%)',
+        background: '#0f172a',
+        surface: '#1e293b',
+        text: '#ffffff',
+        textLight: '#94a3b8'
       }
     }
   }

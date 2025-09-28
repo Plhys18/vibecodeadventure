@@ -20,10 +20,11 @@ const Header = () => {
           <p>{content.subtitle}</p>
         </Link>
         <nav className="nav">
-          <a href="#home">Domů</a>
-          <a href="#services">Služby</a>
-          <a href="#about">O nás</a>
-          <a href="#contact">Kontakt</a>
+          <Link to="/">Domů</Link>
+          <Link to="/about">O společnosti</Link>
+          <Link to="/services">Služby</Link>
+          <Link to="/projects">Realizace</Link>
+          <Link to="/contact">Kontakty</Link>
           <ThemeSwitcher />
           {isAdmin && (
             <>

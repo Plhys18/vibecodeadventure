@@ -35,6 +35,7 @@ const Homepage = () => {
         <section id="services" className="services">
           <div className="container">
             <h2>Naše služby</h2>
+            <p>Komplexní řešení pro vaše projekty v oblasti inženýrství a výstavby</p>
             <div className="services-grid">
               <div className="service-card">
                 <div className="service-icon">🛣️</div>
@@ -70,6 +71,48 @@ const Homepage = () => {
           </div>
         </section>
 
+        <section id="projects" className="projects">
+          <div className="container">
+            <h2>Realizace</h2>
+            <p>Ukázky našich úspěšně dokončených projektů</p>
+            <div className="projects-grid">
+              <div className="project-card">
+                <div className="project-image">
+                  <div className="placeholder-image">
+                    <span>🚧</span>
+                  </div>
+                </div>
+                <div className="project-content">
+                  <h3>Rekonstrukce silnice I/11</h3>
+                  <p>Kompletní rekonstrukce úseku silnice včetně nového osvětlení a odvodnění.</p>
+                </div>
+              </div>
+              <div className="project-card">
+                <div className="project-image">
+                  <div className="placeholder-image">
+                    <span>🌉</span>
+                  </div>
+                </div>
+                <div className="project-content">
+                  <h3>Most přes řeku Desnou</h3>
+                  <p>Projektování a realizace nového mostního přechodu s moderním osvětlením.</p>
+                </div>
+              </div>
+              <div className="project-card">
+                <div className="project-image">
+                  <div className="placeholder-image">
+                    <span>🏗️</span>
+                  </div>
+                </div>
+                <div className="project-content">
+                  <h3>Průmyslová zona Šumperk</h3>
+                  <p>Kompletní infrastruktura nové průmyslové zóny včetně komunikací a osvětlení.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section id="about" className="about">
           <div className="container">
             <div className="about-content">
@@ -98,6 +141,7 @@ const Homepage = () => {
         <section id="contact" className="contact">
           <div className="container">
             <h2>Kontaktujte nás</h2>
+            <p>Jsme tu pro vás - rádi zodpovíme vaše otázky a projednáme možnosti spolupráce</p>
             <div className="contact-content">
               <div className="contact-info">
                 <div className="contact-item">
